@@ -1,0 +1,60 @@
+body {
+    margin-top: 0%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+#main{
+    width: 100%;
+}
+
+.left-container{
+    width: 20%;
+    height: 1000px;
+    float: left;
+    background-color: cornflowerblue;
+}
+
+.right-container{
+    width: 80%;
+    height: 1000px;
+    float: left;
+    background-color:grey;
+}
+
+h1{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    font-size: 30px;
+}
+
+ul li a{
+    text-decoration:none;
+
+}
+
+a:visited {
+    /* color:black; */
+  }
+
+.about-active{
+    color: rgb(255, 255, 255);
+}
+
+.index-active{
+    color: rgb(255, 255, 255);
+}
+
+.contact-active{
+    color: rgb(255, 255, 255);
+}
+
+p{
+    padding: 10px 30px;
+    color: aquamarine;
+}
+
