@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-wrap</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<style>
+    .flex-container{
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: blueviolet;
+    }
+
+    .flex-container > div{
+        background-color: rgb(231, 231, 241);
+        line-height: 75px;
+        width: 100px;
+        text-align: center;
+        font-size: 30px;
+        margin: 10px;
+    }
+</style>
+<body>
+    <div id="main">
+        <div class="left-container">
+          <ul>
+            <li> <a href="w3school_flex_nowrap_8.html">w3schools flex nowrap example 8</a> </li>
+          </ul>
+        </div>
+    
+        <div class="right-container">
+          <h1>
+            The flex nowrap Property Example 8</h1>
+          <hr>
+          <p>The "flex-wrap: nowrap;" specifies that the flex items will not wrap (this is default):</p>
+
+
+            <div class="flex-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+                
+            </div>
+        </div>
+        
+    </div> 
+</body>
+</html>

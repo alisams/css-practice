@@ -1,0 +1,63 @@
+<!-- https://www.w3schools.com/css/css3_flexbox.asp -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex-direction</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .flex-container{
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(78, 227, 19);
+    }
+
+    .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+  </style>
+</head>
+
+<body>
+
+
+  <div id="main">
+    <div class="left-container">
+      <ul>
+        <li> <a href="w3schools_flexbox_direction_3.html">w3schools flex-direction Property example 3</a> </li>
+      </ul>
+    </div>
+
+    <div class="right-container">
+      <h1>
+        The flex-direction Property Example 3</h1>
+      <hr>
+      
+      <p>The column value stacks the flex items vertically (from top to bottom):</p>
+      <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>  
+        <div>5</div>  
+      </div>
+      <h1>The flex-direction Property</h1>
+
+      <p>The "flex-direction: column;" stacks the flex items vertically (from top to bottom):</p>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
